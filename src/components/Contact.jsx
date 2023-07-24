@@ -1,0 +1,46 @@
+import Title from "./Title";
+
+function Contact() {
+    return (
+        <div>
+                <Title> Contact Me </Title>
+                <div className="flex flex-col mx-auto pt-6 md:pt-16">
+                    <div className="flex justify-center items-center">
+                    <form
+                        action="https://getform.io/f/e1f1261e-74d7-4392-91de-aa93da228886"
+                        method="POST"
+                        className="flex flex-col w-9/12 lg:w-5/12"
+                    >
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                    />
+                    <input
+                        type="text"
+                        name="email"
+                        placeholder="Email"
+                        className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                    />
+                    <textarea
+                        name ="message"
+                        placeholder="Message"
+                        rows="10"
+                        className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none resize-none"
+                    />
+                    <button
+                        type="submit"
+                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md 
+                        text-white bg-gradient-to-r from-sky-500 to-slate-500 drop-shadow-md"
+                    >
+                        Work With Me
+                    </button>
+                </form>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Contact;
