@@ -15,6 +15,7 @@ function Projects() {
                gitlink = {item.gitlink}
                stack={item.stack.map((item) => item)}
                link = {item.link}
+               info = {item.info}
                key={item.title}
              />
             ))}

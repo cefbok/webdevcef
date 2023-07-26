@@ -9,22 +9,22 @@ function Background() {
             <div className="flex justify-center items-center  py-6 md:py-16">
                 <img src="src/assets/Cef2.jpg" alt="background"
                 className="object-cover w-10/12 md:h-48 lg:h-64 hidden md:block 
-                border-2 border-stone-800 dark:border-stone-300 rounded-lg " />
+                border-2 border-stone-400 dark:border-stone-300 rounded-lg " />
             </div>
             <section className="flex flex-col md:flex-col lg:flex-row text-center 
-                md:justify-evenly pb-6 md:pb-16 gap-8 mx-2 ">
+                md:justify-evenly pb-6 md:pb-16 gap-8 mx-10 ">
                 <div>
                     <p className="text-2xl font-semibold underline mb-3 lg:mb-6"> SKILLS </p>
                     <div className="flex flex-col h-46 w-60 mx-auto gap-4">
-                        <ul className="flex gap-5">
-                            <li className="">< BiLogoHtml5 size={64}/></li>
-                            <li>< BiLogoCss3 size={64}/></li>
-                            <li>< BiLogoJavascript size={64}/></li>
+                        <ul className="flex gap-5 font-medium">
+                            <li className="">< BiLogoHtml5 size={64}/> HTML </li>
+                            <li>< BiLogoCss3 size={64}/> CSS </li>
+                            <li>< BiLogoJavascript size={64}/> JavaScript </li>
                         </ul>
-                        <ul className="flex gap-5">
-                            <li>< BiLogoPython size={64}/></li>
-                            <li>< BiLogoReact size={64}/></li>
-                            <li>< BiLogoTailwindCss size={64}/></li>
+                        <ul className="flex gap-5 font-medium">
+                            <li>< BiLogoPython size={64}/> Python </li>
+                            <li>< BiLogoReact size={64}/> React </li>
+                            <li>< BiLogoTailwindCss size={64}/> TailwindCSS </li>
                         </ul>
                     </div>
                 </div>

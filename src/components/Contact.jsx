@@ -16,23 +16,27 @@ function Contact() {
                         name="name"
                         placeholder="Name"
                         className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        required
                     />
                     <input
                         type="text"
                         name="email"
                         placeholder="Email"
                         className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        required
                     />
                     <textarea
                         name ="message"
                         placeholder="Message"
                         rows="10"
                         className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none resize-none"
+                        required
                     />
                     <button
                         type="submit"
                         className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md 
-                        text-white bg-gradient-to-r from-sky-500 to-slate-500 drop-shadow-md"
+                        text-white bg-gradient-to-r from-sky-500 to-slate-500 hover:to-sky-600
+                        drop-shadow-md hover:scale-105 ease-in-out duration-300"
                     >
                         Work With Me
                     </button>

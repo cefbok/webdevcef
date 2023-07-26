@@ -3,22 +3,22 @@ const data = [
      title: 'Tool Keeper System',
      imgUrl: 'src/assets/1.jpg',
      stack: ['HTML', 'CSS','JavaScript', 'Django', 'MySQL'],
-     link: 'https://www.youtube.com/watch?v=b0pkpcD8Ms4&t=287s',
-     gitlink: 'https://github.com/paopaolopaoloo/tool-keeper-system',
+     link: 'https://tkstupc.com/',
+     info: 'Tool Keeper System provides security to tools and equipment owned by the university',
    },
    {
      title: 'My Portfolio',
      imgUrl: 'src/assets/2.jpg',
      stack: ['React', 'Tailwind', 'Vite'],
-     link: 'https://tailwindcss.com/docs/object-fit#resizing-to-cover-a-container',
-     gitlink: '',
+     link: 'https://github.com/cefbok/webdevcef',
+     info: 'Simple Portfolio build with react vite tailwind',
    },
    {
-     title: 'Store the Note',
+     title: 'Get Form',
      imgUrl: 'src/assets/3.jpg',
      stack: ['HTML', 'CSS', 'JavaScript'],
      link: 'https://app.getform.io/forms/65130/automation',
-     gitlink: 'https://www.youtube.com/watch?v=eWNn24KHPRQ',
+     info: 'tup admission provides quality and efficient way to view what it is to be in this university',
    },
  ];
 
