@@ -1,6 +1,7 @@
 import Title from "./Title";
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPython, BiLogoReact, BiLogoTailwindCss } from "react-icons/bi";
-
+import SkillList from "./infoSection/skills";
+import Education from "./infoSection/education";
+import Experience from "./infoSection/experience";
 
 function Background() {
     return ( 
@@ -12,39 +13,10 @@ function Background() {
                 border-2 border-stone-400 dark:border-stone-300 rounded-lg " />
             </div>
             <section className="flex flex-col md:flex-col lg:flex-row text-center 
-                md:justify-evenly pb-6 md:pb-16 gap-8 mx-10 ">
-                <div>
-                    <p className="text-2xl font-semibold underline mb-3 lg:mb-6"> SKILLS </p>
-                    <div className="flex flex-col h-46 w-60 mx-auto gap-4">
-                        <ul className="flex gap-5 font-medium">
-                            <li className="">< BiLogoHtml5 size={64}/> HTML </li>
-                            <li>< BiLogoCss3 size={64}/> CSS </li>
-                            <li>< BiLogoJavascript size={64}/> JavaScript </li>
-                        </ul>
-                        <ul className="flex gap-5 font-medium">
-                            <li>< BiLogoPython size={64}/> Python </li>
-                            <li>< BiLogoReact size={64}/> React </li>
-                            <li>< BiLogoTailwindCss size={64}/> TailwindCSS </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <p className="text-2xl font-semibold underline mb-3 lg:mb-6"> EDUCATION </p>
-                    <ul className="text-center text-lg ">
-                        <li className="font-bold text-xl"> BET - Computer Engineering Technology </li>
-                        <li className="font-medium"> Technological University of the Philippines - Cavite Campus </li>
-                        <li className="font-normal"> 2019 - 2023 </li>
-                        
-                    </ul>
-                </div>
-                <div>
-                    <p className="text-2xl font-semibold underline mb-3 lg:mb-6"> EXPERIENCE </p>
-                    <ul className="text-center text-lg">
-                        <li className="font-bold text-xl"> IT SUPPORT INTERN </li>
-                        <li className="font-medium"> Bargn Farmaceutici Phils. Co. </li>
-                        <li className="font-normal"> March - June 2023 </li>
-                    </ul>
-                </div>
+                md:justify-evenly pb-6 md:pb-16 gap-10 mx-10">
+                < SkillList />
+                < Education />
+                < Experience />
             </section>
         </div>
         

@@ -7,7 +7,7 @@ function ProjectItems({ title, imgUrl, stack, link}) {
          target="_blank"
          rel="noopener noreferrer"
          className="border-2 border-stone-900 dark:border-white 
-         rounded-lg overflow-hidden flex-none w-64 md:w-80"
+         rounded-lg overflow-hidden flex-none w-64 md:w-80 transition hover:scale-105"
       >
          <img
             src={imgUrl}

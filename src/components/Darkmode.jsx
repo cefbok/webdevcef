@@ -1,15 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function DarkModeToggle() {
-  const [setTheme, setDarkMode] = useState(null);
-
-  useEffect(() => {
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			setDarkMode('dark');
-		} else {
-			setDarkMode('light');
-		}
-	}, []);
+  const [setTheme, setDarkMode] = useState('light');
 
   useEffect(() => {
 		if (setTheme === 'dark') {
