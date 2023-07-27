@@ -4,9 +4,9 @@ import Title from "./Title";
 
 function Projects() {
   return (
-    <div>
+    <div id="works">
       <Title> My Projects </Title>
-      <div id="works" className="flex flex-col md:flex-row items-center justify-center pt-10 md:pt-16">
+      <div  className="flex flex-col md:flex-row items-center justify-center pt-10 md:pt-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {data.map((item) => (
              <ProjectItems
@@ -24,5 +24,6 @@ function Projects() {
     </div>
   );
 }
+
 
 export default Projects;

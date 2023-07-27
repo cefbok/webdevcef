@@ -2,6 +2,9 @@
 import Title from "./Title";    
 
 function Hero() {
+    const scrollToProjects = () => {
+        document.querySelector("#works").scrollIntoView({ behavior: "smooth" });
+    };
     return (
     <div>
         <div className="">
@@ -24,11 +27,11 @@ function Hero() {
                 <img src="src/assets/herocef.jpg" alt="Cefrin Paanod" 
                     className="h-72 md:h-80 lg:h-96 w-auto mb-6 rounded-lg 
                     border-2 border-stone-500 dark:border-stone-300"/>
-                <button className="= bg-white dark:bg-stone-900 w-full 
-                h-16 border-2 rounded-lg border-stone-500 dark:border-stone-300
-                         hover:border-sky-600 dark:hover:border-sky-800 hover:font-medium 
-                         hidden md:block"> VIEW MY WORK </button>
-            </div>    
+                <button className="= bg-white dark:bg-stone-900 w-full h-16 
+                        border-2 rounded-lg border-stone-500 dark:border-stone-300
+                        hover:border-sky-600 dark:hover:border-sky-800 hover:font-medium 
+                        hidden md:block" onClick={scrollToProjects}> VIEW MY WORK </button>
+            </div>  
         </section>
     </div>
     
