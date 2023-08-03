@@ -11,6 +11,7 @@ function Contact() {
                         method="POST"
                         className="flex flex-col w-9/12 lg:w-5/12"
                     >
+                    <h2 className="text-lg font-medium mb-5 ">I{"'"}m ready when you are!</h2>
                     <input
                         type="text"
                         name="name"

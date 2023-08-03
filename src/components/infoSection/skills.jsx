@@ -13,19 +13,19 @@ const icons = [
 function SkillList() {
     return (
         <div>
-            <p className="text-2xl font-semibold underline mb-3 lg:mb-6"> SKILLS </p>
-            <div className="flex flex-col h-46 w-60 mx-auto gap-5">
+            <p className="text-2xl md:font-semibold underline mb-3 lg:mb-6"> SKILLS </p>
+            <div className="flex flex-col items-center gap-5">
                 <ul className="flex gap-8 font-medium">
                 {icons.slice(0, 3).map(({ icon: Icon, label }) => (
                     <li key={label} className="transition hover:scale-125">
-                    <Icon size={64}/> {label}
+                    <Icon size={48}/> {label}
                     </li>
                 ))}
                 </ul>
                 <ul className="flex gap-8 font-medium">
                 {icons.slice(3).map(({ icon: Icon, label }) => (
                     <li key={label} className="transition hover:scale-125">
-                    <Icon size={64} /> {label}
+                    <Icon size={48} /> {label}
                     </li>
                 ))}
                 </ul>

@@ -7,12 +7,14 @@ function ProjectItems({ title, imgUrl, stack, link}) {
          target="_blank"
          rel="noopener noreferrer"
          className="border-2 border-stone-900 dark:border-white 
-         rounded-lg overflow-hidden flex-none w-64 md:w-80 transition hover:scale-105"
+         hover:border-sky-500 dark:hover:border-sky-500
+         rounded-lg overflow-hidden flex-none w-72 md:w-80 transition 
+         hover:scale-105 hover:shadow-xl"
       >
          <img
             src={imgUrl}
             alt="portfolio" 
-            className="w-full h-48 md:h-52 object-cover cursor-pointer"
+            className="w-full h-36 md:h-48 object-cover"
          />
          <div className="w-full p-4">
             <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold ">{title}</h3>

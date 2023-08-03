@@ -52,7 +52,7 @@ function DarkModeToggle() {
   return (
     <div className="dark-mode-toggle-container">
       <button
-        className={`rounded-full w-8 h-8 ${setTheme === "dark" ? 'bg-yellow-500' : 'bg-sky-300'} 
+        className={`rounded-full w-8 h-8 ${setTheme === "dark" ? 'bg-yellow-500' : 'bg-sky-400'} 
         flex items-center justify-center`}
         onClick={toggleDarkMode}
       >

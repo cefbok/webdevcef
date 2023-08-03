@@ -6,7 +6,7 @@ function Title({ children, id, showToggle }) {
     <div className="relative flex-none md:flex items-center pt-6 md:pt-16">
       <h1
         id={id && id}
-        className="text-xl md:text-2xl font-normal mx-3 mb-3 md:mb-0 md:mx-16"
+        className="text-xl md:text-2xl font-semibold mx-3 mb-3 md:mb-0 md:mx-16"
       >
         {children}
       </h1>
