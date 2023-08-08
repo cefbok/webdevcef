@@ -46,7 +46,7 @@ function Hero() {
                     className="h-72 md:h-80 lg:h-96 w-auto mb-6 rounded-lg 
                     border-2 border-stone-500 dark:border-stone-300"/>
                 <button className="w-full h-16 border-2 rounded-lg border-stone-500 dark:border-stone-300
-                        hover:border-sky-600 dark:hover:border-sky-600 hover:font-medium 
+                        hover:border-sky-600 dark:hover:border-sky-600 hover:font-medium
                         hidden md:block" onClick={scrollToProjects}> VIEW MY WORK </button>
             </div>  
         </section>
