@@ -10,14 +10,11 @@ Build with
 - Vite
 - TailwindCSS
 
-## Installation
+## Screenshot
 
-Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) to install node-modules.
+![port](https://github.com/cefbok/webdevcef/assets/92078831/d6ac17ec-edbb-4c96-8723-e6789d600acf)
 
-```bash
-npm install
-npm run dev
-```
+
 ## Credit
 
 Collect submissions, receive emails and automate your form.
