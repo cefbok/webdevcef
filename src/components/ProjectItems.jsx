@@ -37,7 +37,6 @@ ProjectItems.propTypes = {
   imgUrl: PropTypes.string,
   stack: PropTypes.array.isRequired,
   link: PropTypes.string.isRequired,
-  info: PropTypes.string.isRequired,
 };
 
 export default ProjectItems;

@@ -8,7 +8,7 @@ function Background() {
         <div>
             <Title> Background </Title>
             <div className="flex justify-center items-center  py-6 md:py-16">
-                <img src="public/assets/bgcef.jpg" alt="background"
+                <img src="/assets/bgcef.jpg" alt="background"
                 className="object-cover w-10/12 md:h-48 lg:h-64 hidden md:block 
                 border-2 border-stone-400 dark:border-stone-300 rounded-lg"/>
             </div>
