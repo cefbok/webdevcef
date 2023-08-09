@@ -27,7 +27,7 @@ function Hero() {
                             <br className="hidden sm:block"/> with seamless user experience.
                             </p>
                         </div>
-                        <a href="src/assets/CefrinPaanodResume.pdf" 
+                        <a href="assets/CefrinPaanodResume.pdf" 
                             target="_blank" 
                             rel="noopener noreferer"
                             className="relative inline-block">
@@ -42,7 +42,7 @@ function Hero() {
             </div>
             
             <div className="grid place-items-center mt-5"> 
-                <img src="/assets/hcef.jpg" alt="Cefrin Paanod" 
+                <img src="assets/hcef.jpg" alt="Cefrin Paanod" 
                     className="h-72 md:h-80 lg:h-96 w-auto mb-6 rounded-lg 
                     border-2 border-stone-500 dark:border-stone-300"/>
                 <button className="w-full h-16 border-2 rounded-lg border-stone-500 dark:border-stone-300
