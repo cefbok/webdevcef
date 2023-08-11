@@ -25,7 +25,7 @@ function SkillList() {
                 <ul className="flex gap-8 font-medium">
                 {icons.slice(3).map(({ icon: Icon, label }) => (
                     <li key={label} className="transition hover:scale-125">
-                    <Icon size={48} /> {label}
+                    <Icon size={48}/> {label}
                     </li>
                 ))}
                 </ul>

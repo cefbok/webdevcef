@@ -5,13 +5,15 @@ function Contact() {
         <div>
                 <Title> Contact Me </Title>
                 <div className="flex flex-col mx-auto pt-6 md:pt-16">
-                    <div className="flex justify-center items-center">
+                    <div id="contact" className="flex justify-center items-center">
                     <form
                         action="https://getform.io/f/e1f1261e-74d7-4392-91de-aa93da228886"
                         method="POST"
                         className="flex flex-col w-9/12 lg:w-5/12"
                     >
-                    <h2 className="text-lg font-medium mb-5 ">I{"'"}m ready when you are!</h2>
+                    <h2 className="text-lg font-medium mb-5 bg-gradient-to-r from-sky-300
+                    bg-no-repeat bg-left bg-[length:60%_12px]">
+                    I{"'"}m ready when you are!</h2>
                     <input
                         type="text"
                         name="name"
