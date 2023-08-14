@@ -12,7 +12,7 @@ function Footer() {
                     <a href="https://www.facebook.com/bokaroids"
                     target="_blank" rel="noopener noreferrer"><FaFacebook size={32}/></a>
                     <br />
-                    <a href="https://www.linkedin.com/in/cefrin-paanod-18b852266/"
+                    <a href="https://www.linkedin.com/in/cefrin-paanod-ab689a283/"
                     target="_blank" rel="noopener noreferrer"><FaLinkedin size={32}/></a>
                 </div>
                 <div className="relative flex items-center justify-center">
