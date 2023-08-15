@@ -23,10 +23,10 @@ function Hero() {
                         <span className="relative text-stone-900 dark:text-stone-300
                         md:text-white md:dark:text-stone-900">Paanod</span></span></h2>
                         <div className="mx-5 md:mx-auto text-base">
-                            <p>Hi there! I{"'"}m a front-end web developer and web design enthusiast, <br className="hidden lg:block"/>
-                            passionate about creating clean and functional websites. <br className="hidden lg:block"/>
+                            <p>Hi there! I{"'"}m a front-end web developer and web design enthusiast, <br className="hidden sm:block"/>
+                            passionate about creating clean and functional websites. <br className="hidden sm:block"/>
                             I strive to provide visually appealing and user friendly interfaces
-                            <br className="hidden lg:block"/> with seamless user experience.
+                            <br className="hidden sm:block"/> with seamless user experience.
                             </p>
                         </div>
                         <div className="flex flex-none gap-4 text-sm justify-center md:justify-start">
@@ -51,11 +51,11 @@ function Hero() {
                     </div>
             </div>
             
-            <div className="grid place-items-center mt-5"> 
+            <div className="grid place-items-center mt-4"> 
                 <img src="assets/hcef.jpg" alt="Cefrin Paanod" 
-                    className="h-72 md:h-80 lg:h-96 w-auto mb-6 rounded-lg 
+                    className="h-72 md:h-80 lg:h-96 w-auto mb-4 rounded-lg 
                     border-2 border-stone-500 dark:border-stone-300"/>
-                <button className="w-72 h-16 border-2 rounded-lg border-stone-500 dark:border-stone-300
+                <button className="md:w-60 lg:w-72 md:h-14 lg:h-16 border-2 rounded-lg border-stone-500 dark:border-stone-300
                         hover:border-sky-400 dark:hover:border-sky-400 hover:font-medium
                         hidden md:block hover:scale-105 hover:shadow-md" onClick={scrollToProjects}> VIEW MY WORK </button>
             </div>  
