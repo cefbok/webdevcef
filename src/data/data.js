@@ -12,10 +12,10 @@ const data = [
      link: 'https://github.com/cefbok/webdevcef',
    },
    {
-     title: 'Working...',
+     title: 'Web Blog',
      imgUrl: 'assets/3.jpg',
-     stack: ['HTML', 'CSS', 'JavaScript'],
-     link: '',
+     stack: ['HTML', 'Bootswatch', 'Django', 'MySQL'],
+     link: 'https://github.com/cefbok/web-blog',
    },
  ];
 

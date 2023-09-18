@@ -19,7 +19,7 @@ function Title({ children, id, showToggle }) {
 Title.propTypes = {
    children: PropTypes.node.isRequired,
    id: PropTypes.node,
-   showToggle: PropTypes.bool, // Add this prop
+   showToggle: PropTypes.bool,
  };
  
  Title.defaultProps = {
