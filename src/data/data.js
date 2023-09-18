@@ -13,7 +13,7 @@ const data = [
    },
    {
      title: 'Web Blog',
-     imgUrl: 'assets/3.jpg',
+     imgUrl: 'assets/Blog.png',
      stack: ['HTML', 'Bootswatch', 'Django', 'MySQL'],
      link: 'https://github.com/cefbok/web-blog',
    },
