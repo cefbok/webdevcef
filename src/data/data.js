@@ -17,6 +17,12 @@ const data = [
      stack: ['HTML', 'Bootswatch', 'Django', 'MySQL'],
      link: 'https://github.com/cefbok/web-blog',
    },
+   {
+    title: 'Wordpress Portfolio',
+    imgUrl: 'assets/wordpress.png',
+    stack: ['Wordpress'],
+    link: 'https://webdevcef3.wordpress.com/',
+  },
  ];
 
 
