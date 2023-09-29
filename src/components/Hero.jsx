@@ -1,7 +1,12 @@
 
+import { useEffect } from "react";
+import aosLoad from "./AOS/aosLoad";
 import Title from "./Title";  
 
 function Hero() {
+    useEffect(() => {
+        aosLoad();
+    }, []);
     const scrollToProjects = () => {
         document.querySelector("#works").scrollIntoView({ behavior: "smooth" });
     };
@@ -10,13 +15,13 @@ function Hero() {
     };
     return (
     <div>
-        <div>
+        <div data-aos="fade-down" data-aos-duration="1000">
         <Title showToggle={true}> About Me </Title>
         </div>
         <section id="Home" className="flex flex-col md:flex-row justify-around 
         md:py-16 py-6 md:px-10 lg:px-0">
             <div className="">
-                    <div className="text-center md:text-start mt-6 md:mt-20 mb-8 ">
+                    <div className="text-center md:text-start mt-6 md:mt-20 mb-8" data-aos="fade-right" data-aos-duration="1500">
                         <h2 className="text-3xl md:text-5xl lg:text-6xl mb-3 md:mb-5
                         font-bold">Cefrin <span className="before:block before:absolute 
                         before:-inset-2 md:before:-skew-y-3 md:before:bg-sky-500 relative inline-block">
@@ -51,7 +56,7 @@ function Hero() {
                     </div>
             </div>
             
-            <div className="grid place-items-center mt-4"> 
+            <div className="grid place-items-center mt-4" data-aos="fade-left" data-aos-duration="2000"> 
                 <img src="assets/hcef.jpg" alt="Cefrin Paanod" 
                     className="h-72 md:h-80 lg:h-96 w-auto mb-4 rounded-lg 
                     border-2 border-stone-500 dark:border-stone-300"/>
