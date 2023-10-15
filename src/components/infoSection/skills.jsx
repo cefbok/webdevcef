@@ -17,7 +17,7 @@ function SkillList() {
         aosLoad();
     }, []);
     return (
-        <div data-aos="fade-right" data-aos-duration="1500" data-aos-offset="100"
+        <div data-aos="fade-right" data-aos-duration="600" data-aos-offset="100"
         data-aos-easing="ease-in-sine">
             <p className="text-2xl md:font-semibold underline mb-3 lg:mb-6"> SKILLS </p>
             <div className="flex flex-col items-center gap-5">
