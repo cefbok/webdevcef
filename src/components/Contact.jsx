@@ -3,7 +3,7 @@ import Title from "./Title";
 function Contact() {
     return (
         <div>
-                <div data-aos="fade-up" data-aos-duration="1500">
+                <div data-aos="fade-up" data-aos-duration="800">
                     <Title> Contact Me </Title>
                 </div>
                 <div className="flex flex-col mx-auto pt-6 md:pt-16"

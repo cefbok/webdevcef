@@ -15,7 +15,7 @@ function Hero() {
     };
     return (
     <div>
-        <div data-aos="fade-down" data-aos-duration="1000">
+        <div data-aos="fade-down" data-aos-duration="800">
         <Title showToggle={true}> About Me </Title>
         </div>
         <section id="Home" className="flex flex-col md:flex-row justify-around 
