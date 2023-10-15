@@ -10,7 +10,7 @@ function Projects() {
   }, []);
   return (
     <div id="works">
-      <div data-aos="fade-up" data-aos-duration="1500">
+      <div data-aos="fade-up">
         <Title> My Projects </Title>
       </div>
       <div  className="flex flex-col md:flex-row items-center justify-center pt-10 md:py-24">

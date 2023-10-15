@@ -3,11 +3,11 @@ import Title from "./Title";
 function Contact() {
     return (
         <div>
-                <div data-aos="fade-up" data-aos-duration="800">
+                <div data-aos="fade-up">
                     <Title> Contact Me </Title>
                 </div>
                 <div className="flex flex-col mx-auto pt-6 md:pt-16"
-                data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" data-aos-easing="ease-in-sine">
                     <div id="contact" className="flex justify-center items-center">
                     <form
                         action="https://getform.io/f/e1f1261e-74d7-4392-91de-aa93da228886"
